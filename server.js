@@ -60,6 +60,8 @@
     - create Layouts folder
         - create main.handlebars file
             - set up file to use Handlebars
+
+10. Create ReadMe file
 */
 
 var express = require("express");
