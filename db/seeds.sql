@@ -1,0 +1,10 @@
+INSERT INTO burgers (name) VALUES ('Single beef');
+INSERT INTO burgers (name) VALUES ('Single beef with cheese');
+INSERT INTO burgers (name) VALUES ('Double beef');
+INSERT INTO burgers (name) VALUES ('Double beef with cheese');
+INSERT INTO burgers (name) VALUES ('Chicken');
+INSERT INTO burgers (name, devoured) VALUES ('Single beef', true);
+INSERT INTO burgers (name, devoured) VALUES ('Single beef with cheese', true);
+INSERT INTO burgers (name, devoured) VALUES ('Double beef', true);
+INSERT INTO burgers (name, devoured) VALUES ('Double beef with cheese', true);
+INSERT INTO burgers (name, devoured) VALUES ('Chicken', true);
