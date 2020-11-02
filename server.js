@@ -57,11 +57,14 @@
     - create index.handlebars file
         - create template that Handlebars can render onto
         - create a button that will submit the user input into the database
+        - create 
     - create Layouts folder
         - create main.handlebars file
             - set up file to use Handlebars
 
-10. Create ReadMe file
+10. Hosting on Heroku
+
+11. Create ReadMe file
 */
 
 var express = require("express");
