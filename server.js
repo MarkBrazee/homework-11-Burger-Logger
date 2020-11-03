@@ -39,7 +39,7 @@
             - selectall()
             - insertOne()
             - updateOne()
-        - export the ORM object: modul.exports
+        - export the ORM object: module.exports
 
 7. Create Model folder
     - create burger.js file

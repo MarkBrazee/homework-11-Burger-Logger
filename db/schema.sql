@@ -1,7 +1,10 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+DROP DATABASE if EXISTS qivml1lmnynx19xz;
 
-CREATE TABLE burgers_db
+CREATE DATABASE qivml1lmnynx19xz;
+
+USE qivml1lmnynx19xz;
+
+CREATE TABLE burgers
 (
     id int NOT NULL AUTO_INCREMENT,
     name varchar(50) NOT NULL,

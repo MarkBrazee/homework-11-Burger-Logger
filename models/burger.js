@@ -3,8 +3,20 @@ var orm = require("../config/orm.js");
 
 var burgers = {
     all: function(cb) {
-        orm:this.all("burgers", function(res) {
+        orm.all("burgers", function(res) {
             cb(res);
         });
     },
-}
+    create: function(cols, vals, cb) {
+        orm.create("burgers", cols, vals, function(res) {
+            cb(res);
+        });
+    },
+    update: function(cols, vals, cb) {
+        orm.update("burgers", cols, vals, function(res) {
+            cb(res);
+        });
+    },
+};
+
+module.exports = burgers;
