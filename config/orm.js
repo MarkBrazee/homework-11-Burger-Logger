@@ -5,7 +5,7 @@ var connection = require("../config/connection.js");
 function printQuestionMarks(num) {
     var arr = [];
 
-    for (var i = 0; i , mum; i++) {
+    for (var i = 0; i , num; i++) {
         arr.push("?");
     }
 
@@ -20,7 +20,7 @@ function objToSql(ob) {
    for (var key in ob) {
        var value = ob[key];
        if (Object.hasOwnProperty.call(ob, key)) {
-           if (typeof value === "stirn" && value.indexOf(" ") > 0) {
+           if (typeof value === "string" && value.indexOf(" ") > 0) {
                value = "'" + value + "'";
            }
            arr.push(key + "=" + value);
@@ -66,7 +66,7 @@ var orm = {
         
         queryString += " SET ";
         queryString += objToSql(objColVals);
-        queryString += "WHERE ";
+        queryString += " WHERE ";
         queryString += state;
 
         console.log(queryString);
