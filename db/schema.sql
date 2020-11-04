@@ -1,8 +1,8 @@
-DROP DATABASE if EXISTS qivml1lmnynx19xz;
+DROP DATABASE if EXISTS burger_db;
 
-CREATE DATABASE qivml1lmnynx19xz;
+CREATE DATABASE burger_db;
 
-USE qivml1lmnynx19xz;
+USE burger_db;
 
 CREATE TABLE burgers
 (
